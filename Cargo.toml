@@ -1,0 +1,10 @@
+[package]
+name = "cargo-hardcore"
+version = "0.1.0"
+edition = "2024"
+authors = ["Zac Pearson <z@c-franklin.me>"]
+license = "MIT"
+description = "Wrapper around cargo check. Deletes code if error or warning detected."
+keywords = ["cargo", "subcommand", "check", "hardcore"]
+
+[dependencies]
